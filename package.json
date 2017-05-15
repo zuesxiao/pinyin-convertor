@@ -1,0 +1,14 @@
+{
+  "name": "pinyin-convertor",
+  "version": "0.0.1",
+  "description": "Pure javascript hanzi(Chinese) pinyin convertor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "pinyin"
+  ],
+  "author": "zeus.xiao",
+  "license": "MIT"
+}

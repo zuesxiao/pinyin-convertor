@@ -1,0 +1,24 @@
+### JetBrains
+.idea/
+
+### VisualStudioCode template
+.vscode/
+
+### macOS template
+*.DS_Store
+
+### Node template
+logs
+*.log
+
+### Coverage directory used by tools like istanbul
+coverage
+
+### Dependency directories
+node_modules/
+
+### Optional npm cache directory
+.npm
+
+### Optional eslint cache
+.eslintcache
