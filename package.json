@@ -2,13 +2,26 @@
   "name": "pinyin-convertor",
   "version": "0.0.1",
   "description": "Pure javascript hanzi(Chinese) pinyin convertor.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "list": "node --icu-data-dir=node_modules/full-icu ./tool/list-all-hanzi.js"
   },
   "keywords": [
-    "pinyin"
+    "pinyin",
+    "hanzi",
+    "拼音",
+    "汉语",
+    "汉字",
+    "中文"
   ],
   "author": "zeus.xiao",
-  "license": "MIT"
+  "homepage": "https://github.com/zuesxiao/pinyin-convertor",
+  "bugs": {
+    "url": "https://github.com/zuesxiao/pinyin-convertor/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "full-icu": "^1.0.3"
+  }
 }
