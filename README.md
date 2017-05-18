@@ -1,2 +1,2 @@
 # pinyin-convertor
-Pure javascript hanzi pinyin convertor
+Pure javascript hanzi(Chinese) tos pinyin convertor

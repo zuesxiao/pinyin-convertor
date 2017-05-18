@@ -646,7 +646,7 @@ exports.polyphone = {
     '珩': ['heng', 'hang'],
     '蛸': ['shao', 'xiao'],
     '咱': ['zan', 'za']
-}
+};
 
 exports.common = {
     'a': ['啊', '锕'],

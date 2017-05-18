@@ -39,5 +39,5 @@ function createDictionaryMap(){
     console.log('Map Done!!!');
 }
 
-// listAllHanZiInOrder();
+listAllHanZiInOrder();
 createDictionaryMap();

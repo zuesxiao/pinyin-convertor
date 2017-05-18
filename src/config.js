@@ -2,6 +2,8 @@
  * Created by lingxiao on 15/05/2017.
  */
 
+'use strict';
+
 module.exports.FIRST_PINYIN_UNIHAN = '\u963F';
 module.exports.LAST_PINYIN_UNIHAN = '\u9FFF';
 

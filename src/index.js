@@ -38,7 +38,6 @@ function getToken(char) {
         source: char
     };
 
-    let offset = -1;
     let compare;
 
     if (char.charCodeAt(0) < 256) {
@@ -68,7 +67,7 @@ function getToken(char) {
         offset = (begin + end) / 2;
         let unihan = UNIHANS[offset];
         compare = collator.compare(char, unihan);
-        if (compare == 0) {
+        if (compare === 0) {
             break;
         } else if (compare < 0) {
             end = offset - 1;
